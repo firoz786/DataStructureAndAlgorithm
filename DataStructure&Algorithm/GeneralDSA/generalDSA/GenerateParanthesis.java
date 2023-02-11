@@ -1,4 +1,4 @@
-package com.dsa;
+package generalDSA;
 
 public class GenerateParanthesis
 {

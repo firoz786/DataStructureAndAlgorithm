@@ -1,4 +1,4 @@
-package com.dsa;
+package generalDSA;
 import java.util.*;
 
 public class PrimeNumber {

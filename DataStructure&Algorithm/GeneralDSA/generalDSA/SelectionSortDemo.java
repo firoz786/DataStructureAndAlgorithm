@@ -1,4 +1,4 @@
-package com.dsa;
+package generalDSA;
 
 public class SelectionSortDemo {
 	public static void swap(int[] a, int i, int j) {
