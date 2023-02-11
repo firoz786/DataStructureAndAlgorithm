@@ -23,8 +23,7 @@ public class FindingDuplicates {
     public static <T> Set<T> findDuplicateBySetAdd(List<T> list) {
 
         Set<T> items = new HashSet<>();
-//        return list.stream()
-//                .filter(n -> !items.add(n)) // Set.add() returns false if the element was already in the set.
+//        return list.stream().filter(n -> !items.add(n)) // Set.add() returns false if the element was already in the set.
 //                .collect(Collectors.toSet());
 //        
         return list.stream().filter(i -> Collections.frequency(list, i) > 1)
