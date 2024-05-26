@@ -23,7 +23,9 @@ public class ReadingFile {
 				}
 			}
 			System.out.println("count of word "+word+ " is "+count);
+			scReadFileData.close();
 		}
+
 	}
 
 }
