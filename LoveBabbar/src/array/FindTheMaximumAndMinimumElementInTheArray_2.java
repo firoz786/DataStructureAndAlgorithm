@@ -1,4 +1,4 @@
-package array;
+package LoveBabbar.src.array;
 
 /*
 Input: arr[] = {3, 5, 4, 1, 9}
